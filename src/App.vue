@@ -41,19 +41,11 @@
                                     <a href="#" class="dropdown-item">My Wishlist</a>
                                     <a href="checkout.html" class="dropdown-item">Checkout</a>
                                     <div class="dropdown-divider"></div>
-                                    <a href="login-register.html" class="dropdown-item">Login</a>
+                                    <a href="#/login" class="dropdown-item">Login</a>
                                     <a href="login-register.html" class="dropdown-item">Create an Account</a>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe left hidden-md-up"></i><span class="hidden-sm-down">English</span></a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">USD</a>
-                                    <a href="#" class="dropdown-item">EUR</a>
-                                    <a href="#" class="dropdown-item">GBP</a>
-                                    <a href="#" class="dropdown-item">AUD</a>
-                                </div>
-                            </li>
+          
                             <li>
                                 <a href="#">Shipping</a>
                             </li>
@@ -61,7 +53,7 @@
                                 <a href="#">Information</a>
                             </li>
                             <li>
-                                <a href="login-register.html">Log In</a>
+                                <a href="#/login">Log In</a>
                             </li>
                         </ul>
                     </div>
@@ -77,7 +69,7 @@
                     <!--Logo-->
                     <div class="col">
                         <a class="logo" href="index.html">
-                            <img src="img/main.png" alt="" />
+                            <img src="img/" alt="" />
                         </a>
                     </div>
 
@@ -102,8 +94,8 @@
                                 <a data-toggle="dropdown"><i class="ti-user"></i></a>
                                 <!--Dropdown-->
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a href="login-register.html" class="dropdown-item"><i class="fa fa-sign-in left"></i>Login</a>
-                                    <a href="login-register.html" class="dropdown-item"><i class="fa fa-user left"></i>Create an Account</a>
+                                    <a href="#/login" class="dropdown-item"><i class="fa fa-sign-in left"></i>Login</a>
+                                    <a href="#/login" class="dropdown-item"><i class="fa fa-user left"></i>Create an Account</a>
                                     <div class="dropdown-divider"></div>
                                     <a href="login-register.html" class="dropdown-item">My Account</a>
                                     <a href="#" class="dropdown-item">Order History</a>
@@ -133,10 +125,10 @@
                         <nav class="nav-menu col-md-12 col-sm-12">
                             <ul>
                                 <li class="nav-menu-item">
-                                    <a href="index.html">Home</a>
+                                    <a href="#">Home</a>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="shop_grid.html">Products</a>
+                                    <a href="shop_grid.html">Tea</a>
                                     <div class="nav-dropdown col2-dropdown">
                                         <div class="row">
                                             <div class="col-lg-6">
@@ -169,53 +161,22 @@
                                 </li>
 
                                 <li class="nav-menu-item">
-                                    <a href="shop_list-sidebar_right.html">Home & Kitchan</a>
+                                    <a href="shop_list-sidebar_right.html">Teaware</a>
                                     <div class="nav-dropdown col3-dropdown">
                                         <div class="row">
                                             <div class="col-lg-4">
                                                 <ul>
                                                     <li><span class="dropdown-title">Kitchen Appliances</span></li>
-                                                    <li><a href="#">Juicer Mixer Grinders</a></li>
-                                                    <li><a href="#">Water Purifiers</a></li>
-                                                    <li><a href="#">Gas Stoves & Hobs</a></li>
-                                                    <li><a href="#">Chimneys</a></li>
-                                                    <li><a href="#">Induction Cooktops</a></li>
-                                                    <li><a href="#">Kettles & Coffee Makers</a></li>
-                                                    <li><a href="#">Choppers & Blenders</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Kitchenware</span></li>
-                                                    <li><a href="#">Cookware & Bakeware</a></li>
-                                                    <li><a href="#">Kitchen Storage</a></li>
-                                                    <li><a href="#">Dining & Serving</a></li>
-                                                    <li><a href="#">Kitchen Tools</a></li>
-                                                    <li><a href="#">Pressure Cookers</a></li>
-                                                    <li><a href="#">Water Bottles</a></li>
-                                                    <li><a href="#">Tea & Coffeeware</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Home Furnishing</span></li>
-                                                    <li><a href="#">Bed Linen</a></li>
-                                                    <li><a href="#">Bath Linen</a></li>
-                                                    <li><a href="#">Blankets & Quilts</a></li>
-                                                    <li><a href="#">Curtains & Accessories</a></li>
-                                                    <li><a href="#">Mattresses</a></li>
-                                                    <li><a href="#">Sofas</a></li>
-                                                    <li><a href="#">View All</a></li>
+                                                    <li><a href="#">Gaiwan</a></li>
+                                                    <li><a href="#">Cups</a></li>
+                                                    <li><a href="#">Pitchers</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="shop_grid-sidebar_right.html">Footware</a>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="shop_grid.html">General</a>
+                                    <a href="shop_grid.html">Kombucha</a>
                                     <div class="nav-dropdown col3-dropdown center">
                                         <div class="row">
                                             <div class="col-lg-4">
@@ -230,41 +191,16 @@
                                                     <li><a href="#">Air Coolers</a></li>
                                                 </ul>
                                             </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><a href="#">Air Conditioners</a></li>
-                                                    <li><a href="#">Inverters & Stabilizers</a></li>
-                                                    <li><a href="#">AC Comforters</a></li>
-                                                    <li><a href="#">Curtains</a></li>
-                                                    <li><a href="#">Cotton Bedsheets</a></li>
-                                                    <li><a href="#">Deals of the Day</a></li>
-                                                    <li><a href="#">Featured Stores</a></li>
-                                                    <li><a href="#">Wedding Gifting Store</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><a href="#">Fitness Store</a></li>
-                                                    <li><a href="#">Renovate your Bathroom</a></li>
-                                                    <li><a href="#">DIY Store</a></li>
-                                                    <li><a href="#">Brands In Focus</a></li>
-                                                    <li><a href="#">Peter England</a></li>
-                                                    <li><a href="#">Celio</a></li>
-                                                    <li><a href="#">Adidas</a></li>
-                                                    <li><a href="#">Nike</a></li>
-                                                </ul>
-                                            </div>
+                                        
                                         </div>
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="shop_grid.html">Brands</a>
+                                    <a href="#/about">About</a>
                                 </li>
+                               
                                 <li class="nav-menu-item">
-                                    <a href="shop_grid.html">Accessories & Tools</a>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="#">All Pages</a>
+                                    <a href="#">Blog</a>
                                     <div class="nav-dropdown">
                                         <ul>
                                             <li class="nav-menu-item">
@@ -342,8 +278,6 @@
                     <!-- About -->
                     <div class="col-lg-3 col-md-8 col-sm-12">
                         <div class="footer-block about-us-block">
-                            <h5>About Us</h5>
-                            <p>Roaming Roots Tea Co was founded by a couple who have a passion for tea and drinking tea while roaming this beautiful earth. We believe in the health and life benefits drinking tea provide and want to provide high quality tea and teaware to you. There is never a wrong time or place to drink tea. We have roamed all over Asia, Australia, and  North America drinking tea and exploring earth’s wonders. We choose our products for the quality, ease, and benefits it can provide you. We want to encourage tea drinking wherever you may roam.</p>
                             <ul class="footer-social-icon list-none-ib">
                                 <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
